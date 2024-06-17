@@ -27,7 +27,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j</artifactId>
+			<version>0.31.0</version>
+		</dependency>
+		<dependency>
+			<groupId>dev.langchain4j</groupId>
+			<artifactId>langchain4j-anthropic</artifactId>
+			<version>0.31.0</version>
+		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>dev.langchain4j</id>
+			<name>langchain4j</name>
+			<url>https://github.com/langchain4j/langchain4j/tree/25e4d6de4932fc23bdd92a2c9c9fc2613169f125</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>
